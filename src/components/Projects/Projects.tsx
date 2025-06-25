@@ -32,7 +32,7 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <SwiperSlide key={index} className={styles.card}>
               <img
-                src={project.imageSrc}
+                src={`${import.meta.env.BASE_URL}${project.imageSrc.replace(/^\//, '')}`}
                 alt={project.title}
                 className={styles.cardImage}
               />
@@ -77,7 +77,7 @@ export const Projects = () => {
         {projects.map((project, index) => (
           <div key={index} className={styles.card}>
             <img
-              src={project.imageSrc}
+              src={`${import.meta.env.BASE_URL}${project.imageSrc.replace(/^\//, '')}`}
               alt={project.title}
               className={styles.cardImage}
             />
