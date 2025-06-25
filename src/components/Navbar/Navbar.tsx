@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a href="/">
+      <a href={import.meta.env.BASE_URL}>
         <img
           src={getImageUrl("nav/logo.png")}
           alt="Logo"
