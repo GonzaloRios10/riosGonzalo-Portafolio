@@ -1,0 +1,23 @@
+[
+  {
+    "title": "E-Commerce",
+    "imageSrc": "/assets/projects/ElectronicaSyS.jpeg",
+    "description": "Plataforma de ventas en línea para productos electrónicos, con módulos de administración, ventas y control de stock. Se integró la API de Mercado Pago para ofrecer un sistema de pago seguro.",
+    "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Mercado Pago API"],
+    "source": "https://github.com/GonzaloRios10/ElectronicaSyS-TiendaOnline.git"
+  },
+  {
+    "title": "Gimnasio Virtual",
+    "imageSrc": "/assets/projects/Gimnasio.jpg",
+    "description": "Sistema desarrollado para un gimnasio, con herramientas de gestión tanto para el profesor como para sus alumnos. Incluye rutinas de entrenamiento y planes de nutrición personalizados.",
+    "skills": ["HTML", "CSS", "Vanilla", "JavaScript", "PHP", "MySQL"],
+    "source": "https://github.com/GonzaloRios10/PowerGym-Gimnasio.git"
+  },
+  {
+    "title": "Clínica Médica - Trabajo Final de Tesis",
+    "imageSrc": "/assets/projects/GestionMedica.jpeg",
+    "description": "Aplicación web para una clínica médica con gestión de turnos y pacientes, historiales clínicos y apartado de mensajería en linea.",
+    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Laravel", "MySQL"],
+    "source": "https://github.com/normal10as/proyectofinal2023-seminario2023-grupof-riossinicagomez"
+  }
+]

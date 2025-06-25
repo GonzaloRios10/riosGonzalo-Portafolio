@@ -1,0 +1,16 @@
+[
+  {
+    "role": "Desarrollador Freelance",
+    "company": "Autónomo",
+    "period": "2023 - Presente",
+    "description": "Desarrollo sistemas y páginas web escalables y responsivas, generando impacto, alto rendimiento y sobre todo buenas prácticas.",
+    "technologies": []
+  },    
+  {
+    "role": "Desarrollador FullStack",
+    "company": "Teamcubation (Software Factory)",
+    "period": "Nov. 2024 - Jun. 2025",
+    "description": "Me desempeñé como desarrollador FullStack en un proyecto orientado a la administración de recursos para los comedores escolares de Misiones, trabajando en conjunto con el equipo interno del Banco Macro.",
+    "technologies": ["TypeScript", "Angular", "ASP.NET Core", "C#", "PostgreSQL", "Scrum"]
+  }
+]
