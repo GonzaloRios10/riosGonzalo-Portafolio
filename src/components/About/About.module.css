@@ -28,6 +28,7 @@
 .aboutImage {
   width: 30%;
   object-fit: cover;
+  margin-right: 50px;
 }
 
 .aboutItems {

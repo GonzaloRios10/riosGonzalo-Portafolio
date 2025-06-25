@@ -6,11 +6,11 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Hola! Soy Gonzalo <span className={styles.wave}>👋🏻</span>
+          ¡Hola! Soy Gonzalo <span className={styles.wave}>👋🏻</span>
         </h1>
         <p className={styles.subtitle}>Desarrollador FullStack</p>
         <p className={styles.description}>
-          Apasionado por la informática y el aprendizaje continuo, con experiencia en desarrollo y en busca de nuevos desafíos para crecer tanto personal como profesionalmente.
+          Apasionado por la informática y el aprendizaje continuo, con experiencia en análisis y desarrollo de sistemas, y una visión integral para transformar ideas en soluciones digitales.
         </p>
 
         <div className={styles.buttonGroup}>
@@ -33,7 +33,7 @@ export const Hero = () => {
       </div>
 
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/heroImage3.png")}
         alt="Perfil"
         className={styles.heroImg}
       />
