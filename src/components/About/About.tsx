@@ -36,8 +36,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Metodologías Ágiles</h3>
               <p>
-                Trabajo habitualmente con enfoques ágiles como <strong>Scrum</strong>, priorizando colaboración,
-                iteración y mejora continua en los proyectos.
+                Trabajo habitualmente con enfoques ágiles como <strong>Scrum</strong>, priorizando la colaboración, el progreso en cada ciclo de desarrollo y la mejora continua en los proyectos.
               </p>
             </div>
           </li>

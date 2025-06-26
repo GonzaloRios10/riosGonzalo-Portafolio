@@ -19,5 +19,19 @@
     "description": "Aplicación web para una clínica médica con gestión de turnos y pacientes, historiales clínicos y apartado de mensajería en linea.",
     "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Laravel", "MySQL"],
     "source": "https://github.com/normal10as/proyectofinal2023-seminario2023-grupof-riossinicagomez"
+  },
+  {
+    "title": "Portafolio",
+    "imageSrc": "/assets/projects/Portafolio.png",
+    "description": "Sitio web personal para compartir quién soy, mi experiencia y el recorrido que he hecho en el mundo IT hasta la fecha.",
+    "skills": ["HTML", "CSS", "TypeScript", "React", "Swiper.js"],
+    "source": "https://github.com/GonzaloRios10/riosGonzalo-Portafolio.git"
+  },
+  {
+    "title": "Academia de Baile - Landing Page",
+    "imageSrc": "/assets/projects/Academia.jpg",
+    "description": "Página web para una academia de baile, diseñada para mostrar las clases disponibles, instructores y brindar información general sobre el lugar.",
+    "skills": ["En desarrollo..."],
+    "source": ""
   }
 ]

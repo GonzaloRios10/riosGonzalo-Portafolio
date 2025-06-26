@@ -17,7 +17,7 @@ export const Projects = () => {
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={2}
-          initialSlide={1}
+          initialSlide={2}
           spaceBetween={30}
           loop={false}
           coverflowEffect={{
@@ -39,10 +39,27 @@ export const Projects = () => {
               <h3 className={styles.cardTitle}>{project.title}</h3>
               <p className={styles.cardDescription}>{project.description}</p>
               <div className={styles.techGroup}>
-                {project.skills.map((skill, i) => (
-                  <span key={i} className={styles.techTag}>
-                    {skill}
-                  </span>
+                {project.skills[0] === "En desarrollo..." && (
+                  <span className={styles.badge}>
+                    En desarrollo
+                    <svg className={styles.badgeIcon}
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12"
+                      height="12"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm0 2a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm.75 4v4.25l3 1.8-.75 1.23L11 12V7h1.75z" />
+                    </svg>
+                  </span>                
+                )}
+
+                {project.skills
+                  .filter((skill) => skill !== "En desarrollo...")
+                  .map((skill, i) => (
+                    <span key={i} className={styles.techTag}>
+                      {skill}
+                    </span>
                 ))}
               </div>
               <div className={styles.buttonGroup}>
@@ -84,10 +101,27 @@ export const Projects = () => {
             <h3 className={styles.cardTitle}>{project.title}</h3>
             <p className={styles.cardDescription}>{project.description}</p>
             <div className={styles.techGroup}>
-              {project.skills.map((skill, i) => (
-                <span key={i} className={styles.techTag}>
-                  {skill}
-                </span>
+              {project.skills[0] === "En desarrollo..." && (
+                  <span className={styles.badge}>
+                    En desarrollo
+                  <svg className={styles.badgeIcon}
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm0 2a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm.75 4v4.25l3 1.8-.75 1.23L11 12V7h1.75z" />
+                  </svg>
+                </span> 
+              )}
+
+              {project.skills
+                .filter((skill) => skill !== "En desarrollo...")
+                .map((skill, i) => (
+                  <span key={i} className={styles.techTag}>
+                    {skill}
+                  </span>
               ))}
             </div>
             <div className={styles.buttonGroup}>

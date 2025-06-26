@@ -69,6 +69,34 @@
   margin-top: 12px;
 }
 
+.badge {
+  background-color: rgba(166, 168, 15, 0.1);
+  color: #ffd670;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 12px;
+  line-height: 1;
+  animation: pulseFade 1.5s infinite ease-in-out;
+}
+
+.badgeIcon {
+  margin-left: 3px;
+  vertical-align: middle;
+}
+
+@keyframes pulseFade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .techTag {
   color: var(--color-primary);
   background-color: rgba(96, 165, 250, 0.1);

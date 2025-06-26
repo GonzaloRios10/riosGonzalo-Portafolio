@@ -8,3 +8,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('/fonts/outfit-latin-400-normal.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-latin-400-normal.woff2') format('woff2');
+  font-display: swap;
+}
