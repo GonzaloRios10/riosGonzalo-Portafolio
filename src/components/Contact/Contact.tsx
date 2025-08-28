@@ -8,7 +8,7 @@ export const Contact = () => {
         <div className={styles.text}>
           <h2 className={styles.title}>Conectemos</h2>
           <p className={styles.subtitle}>
-            Abierto a oportunidades, colaboraciones, o simplemente a conectar 🚀
+            Abierto a oportunidades, colaboraciones o simplemente a charlar un rato 🚀
           </p>
         </div>
 
