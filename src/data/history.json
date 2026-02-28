@@ -1,16 +1,29 @@
 [
   {
-    "role": "Desarrollador Freelance",
-    "company": "Autónomo",
+    "role": "Desarrollador Full Stack",
+    "company": "Proyectos Freelance",
     "period": "2023 - Presente",
-    "description": "Desarrollo sistemas y sitios web escalables, modernos y responsivos, generando alto impacto y diseñados para destacar en el mundo digital.",
+    "logo": "",
+    "url": "",
+    "description": "Desarrollo de proyectos web a medida para distintos clientes, abarcando análisis de requerimientos, desarrollo full stack, integración de APIs y despliegue de aplicaciones.",
     "technologies": []
-  },    
+  },
   {
-    "role": "Desarrollador FullStack",
+    "role": "Desarrollador Full Stack",
+    "company": "Capasso Tech",
+    "period": "Ago. 2025 - Presente",
+    "logo": "public/assets/logos/logo-capasso.png",
+    "url": "https://capassotech.com",
+    "description": "Formo parte de un equipo de desarrolladores colaborando en proyectos reales, participando en reuniones con clientes, desarrollo, mantenimiento e implementación de funcionalidades. Trabajo en soluciones full stack aplicando buenas prácticas con enfoque en calidad y escalabilidad.",
+    "technologies": ["Laravel", "ASP.NET MVC", "Angular", "SQL Server", "MySQL", "APIs REST", "GitFlow", "Firebase", "PWA"]
+  },
+  {
+    "role": "Desarrollador Full Stack",
     "company": "Teamcubation (Software Factory)",
     "period": "Nov. 2024 - Jun. 2025",
-    "description": "Me desempeñé como desarrollador FullStack en un proyecto orientado a la administración de recursos para los comedores escolares de Misiones, trabajando en conjunto con el equipo interno del Banco Macro.",
-    "technologies": ["TypeScript", "Angular", "ASP.NET Core", "C#", "PostgreSQL", "Scrum"]
+    "logo": "public/assets/logos/logo-teamcubation.jpg",
+    "url": "https://teamcubation.com",
+    "description": "Participe como desarrollador Full Stack en un proyecto orientado a la administración de recursos para los comedores escolares de Misiones, trabajando en conjunto con el equipo interno del Banco Macro.",
+    "technologies": ["TypeScript", "Angular", "ASP.NET Core", "C#", "PostgreSQL", "APIs REST", "Git", "Scrum"]
   }
 ]

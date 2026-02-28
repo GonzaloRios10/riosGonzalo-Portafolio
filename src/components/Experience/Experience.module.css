@@ -25,15 +25,44 @@
   align-items: flex-start;
   margin-top: 10px;
   gap: 40px;
+  padding: 10px;
+}
+
+.left {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.logoLink:hover {
+  opacity: 0.75;
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 4px;
 }
 
 .period {
-  min-width: 160px;
   font-size: 14px;
   text-transform: uppercase;
   color: rgb(100 116 139);
   font-weight: 500;
-  margin-top: 5px;
+  text-align: center;
 }
 
 .details {
@@ -85,9 +114,15 @@
     gap: 16px;
   }
 
-  .period {
+  .left {
+    flex-direction: row;
+    align-items: center;
     min-width: auto;
-    margin-top: 0;
+    gap: 12px;
+  }
+
+  .period {
+    text-align: left;
   }
 
   .role {

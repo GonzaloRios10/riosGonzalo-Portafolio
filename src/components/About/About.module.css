@@ -72,6 +72,7 @@
 
 .aboutItem p {
   font-size: 25px;
+  padding: 5px;
 }
 
 @media screen and (max-width: 830px) {

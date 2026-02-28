@@ -22,7 +22,7 @@
 .title {
   font-size: 72px;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 20px;
   font-family: var(--font-roboto);
   background: linear-gradient(
     90deg,
@@ -54,14 +54,27 @@
   font-weight: 700;
   color: var(--color-primary);
   font-family: var(--font-roboto);
+  margin-bottom: 10px;
+}
+
+.degree {
+  font-size: 20px;
+  font-family: var(--font-roboto);
+  color: rgba(255, 255, 255, 0.75);
   margin-bottom: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.degree::after {
+  content: " 🎓";
 }
 
 .description {
-  font-size: 30px;
+  font-size: 27px;
   font-family: var(--font-roboto);
   text-align: left;
-  margin-bottom: 33px;
+  margin-bottom: 25px;
   width: 100%;
 }
 

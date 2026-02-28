@@ -4,7 +4,7 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>Sobre Mi</h2>
+      <h2 className={styles.title}>Sobre mí</h2>
       <div className={styles.content}>
         <img
           src={getImageUrl("about/erasebg-transformed.png")}
@@ -15,19 +15,18 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cerebro.png")} alt="Cursor icon" className={styles.itemIcon} />
             <div className={styles.aboutItemText}>
-              <h3>Analista de Sistemas</h3>
+              <h3>Téc. Analista de Sistemas</h3>
               <p>
-                Soy Técnico Analista de Sistemas de Computación con experiencia en análisis,
-                diseño y desarrollo de sistemas y sitios web funcionales.
+                Abordo los proyectos desde una perspectiva analítica, comprendiendo requerimientos, flujos y reglas de negocio para diseñar soluciones claras, sostenibles y alineadas a las necesidades del cliente.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/desarrollador.png")} alt="Server icon" className={styles.itemIcon} />
             <div className={styles.aboutItemText}>
-              <h3>Desarrollador FullStack</h3>
+              <h3>Desarrollador Full Stack</h3>
               <p>
-                Cuento con experiencia desarrollando tanto <strong>front-end</strong> como <strong>back-end</strong>, incluyendo integración de APIs, rendimiento, escalabilidad y, sobre todo, buenas prácticas.
+                Desarrollo aplicaciones web a medida y escalables, integrando interfaces modernas con lógica de negocio, APIs y bases de datos, priorizando buenas prácticas y calidad de código.
               </p>
             </div>
           </li>
@@ -36,7 +35,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Metodologías Ágiles</h3>
               <p>
-                Trabajo habitualmente con enfoques ágiles como <strong>Scrum</strong>, priorizando la colaboración, el progreso en cada ciclo de desarrollo y la mejora continua en los proyectos.
+                Trabajo en entornos ágiles colaborando con distintos roles, participando activamente en ceremonias <strong>Scrum</strong> y adaptándome a los cambios y necesidades de cada proyecto.
               </p>
             </div>
           </li>

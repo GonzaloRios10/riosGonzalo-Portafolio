@@ -8,9 +8,12 @@ export const Hero = () => {
         <h1 className={styles.title}>
           ¡Hola! Soy Gonzalo <span className={styles.wave}>👋🏻</span>
         </h1>
-        <p className={styles.subtitle}>Desarrollador FullStack</p>
+        <p className={styles.subtitle}>Desarrollador Full Stack</p>
+        <p className={styles.degree}>
+          Téc. Analista de Sistemas · Graduado
+        </p>
         <p className={styles.description}>
-          Apasionado por la informática y el aprendizaje continuo, con experiencia en análisis y desarrollo de sistemas, y una visión integral para transformar ideas en soluciones digitales.
+          Con experiencia en análisis y desarrollo <br /> de sistemas, participo en proyectos reales bajo metodologías ágiles, aplicando una mirada analítica y comunicación asertiva para transformar ideas en soluciones digitales.
         </p>
 
         <div className={styles.buttonGroup}>

@@ -8,7 +8,14 @@ export const Experience = () => {
       <div className={styles.experienceList}>
         {history.map((job, index) => (
           <div key={index} className={styles.row}>
-            <p className={styles.period}>{job.period}</p>
+            <div className={styles.left}>
+              {job.logo && (
+                <a href={job.url} target="_blank" rel="noopener noreferrer" className={styles.logoLink}>
+                  <img src={job.logo} alt={job.company} className={styles.logo} />
+                </a>
+              )}
+              <p className={styles.period}>{job.period}</p>
+            </div>
             <div className={styles.details}>
               <h3 className={styles.role}>
                 {job.role} <span className={styles.company}> | {job.company}</span>
