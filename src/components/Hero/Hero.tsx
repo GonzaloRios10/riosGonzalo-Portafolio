@@ -30,7 +30,7 @@ export const Hero = () => {
 
         <div className={styles.buttonGroup}>
           <a
-            href={`${import.meta.env.BASE_URL}files/Curriculum_Vitae_2025_Rios_Gonzalo_Agustin.pdf`}
+            href={`${import.meta.env.BASE_URL}files/Curriculum_Vitae_2026_Rios_Gonzalo_Agustin.pdf`}
             download
             target="_blank"
             rel="noopener noreferrer"
