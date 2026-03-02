@@ -6,10 +6,12 @@ import { Experience } from "./components/Experience/Experience";
 import { Projects } from "./components/Projects/Projects";
 import { Contact } from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
+import { GridGlow } from "./components/GridGlow/GridGlow";
 
 function App() {
   return (
     <div className={styles.App}>
+      <GridGlow />
       <Navbar />
       <Hero />
       <About />

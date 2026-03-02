@@ -1,0 +1,18 @@
+.grid {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(79, 142, 247, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(79, 142, 247, 0.06) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.glow {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: radial-gradient(400px circle at 50% 50%, rgba(79, 142, 247, 0.18), transparent 70%);
+}
