@@ -24,7 +24,7 @@
     "title": "Portafolio",
     "imageSrc": "/assets/projects/Portafolio.png",
     "description": "Sitio web personal para compartir quién soy, mi experiencia y el recorrido que he hecho en el mundo IT hasta la fecha.",
-    "skills": ["HTML", "CSS", "TypeScript", "React", "Swiper.js"],
+    "skills": ["HTML", "CSS", "TypeScript", "React"],
     "source": "https://github.com/GonzaloRios10/riosGonzalo-Portafolio.git"
   },
   {

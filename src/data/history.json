@@ -12,16 +12,16 @@
     "role": "Desarrollador Full Stack",
     "company": "Capasso Tech",
     "period": "Ago. 2025 - Presente",
-    "logo": "public/assets/logos/logo-capasso.png",
+    "logo": "assets/logos/logo-capasso.png",
     "url": "https://capassotech.com",
     "description": "Formo parte de un equipo de desarrolladores colaborando en proyectos reales, participando en reuniones con clientes, desarrollo, mantenimiento e implementación de funcionalidades. Trabajo en soluciones full stack aplicando buenas prácticas con enfoque en calidad y escalabilidad.",
-    "technologies": ["Laravel", "ASP.NET MVC", "Angular", "SQL Server", "MySQL", "APIs REST", "GitFlow", "Firebase", "PWA"]
+    "technologies": ["Laravel", "ASP.NET MVC", "Angular", "SQL Server", "MySQL", "APIs REST", "Git", "Firebase", "PWA"]
   },
   {
     "role": "Desarrollador Full Stack",
     "company": "Teamcubation (Software Factory)",
     "period": "Nov. 2024 - Jun. 2025",
-    "logo": "public/assets/logos/logo-teamcubation.jpg",
+    "logo": "assets/logos/logo-teamcubation.jpg",
     "url": "https://teamcubation.com",
     "description": "Participe como desarrollador Full Stack en un proyecto orientado a la administración de recursos para los comedores escolares de Misiones, trabajando en conjunto con el equipo interno del Banco Macro.",
     "technologies": ["TypeScript", "Angular", "ASP.NET Core", "C#", "PostgreSQL", "APIs REST", "Git", "Scrum"]
