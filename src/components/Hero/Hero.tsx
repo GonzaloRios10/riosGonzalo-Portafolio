@@ -1,6 +1,18 @@
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
+const techBadges = [
+  { name: ".NET",       color: "#512BD4", delay: "0s",    top: "5%",  left: "14%"},
+  { name: "Laravel",    color: "#FF2D20", delay: "0.4s",  top: "0%",  left: "52%" },
+  { name: "Angular",    color: "#DD0031", delay: "0.8s",  top: "18%", left: "85%" },
+  { name: "React",      color: "#61DAFB", delay: "1.2s",  top: "48%", left: "90%" },
+  { name: "TypeScript", color: "#3178C6", delay: "1.6s",  top: "75%", left: "78%" },
+  { name: "SQL",        color: "#F29111", delay: "2s",    top: "95%", left: "42%" },
+  { name: "Docker",     color: "#2496ED", delay: "0.3s",  top: "82%", left: "8%"  },
+  { name: "Git",        color: "#F05032", delay: "0.7s",  top: "55%", left: "-4%" },
+  { name: "Scrum",      color: "#009FDA", delay: "1.1s",  top: "28%", left: "-6%" },
+];
+
 export const Hero = () => {
   return (
     <section className={styles.container}>
@@ -17,12 +29,6 @@ export const Hero = () => {
         </p>
 
         <div className={styles.buttonGroup}>
-          {/* <a
-            href="mailto:gonzalo.agusrios@gmail.com"
-            className={styles.contactBtn}
-          >
-            Contáctame
-          </a> */}
           <a
             href={`${import.meta.env.BASE_URL}files/Curriculum_Vitae_2025_Rios_Gonzalo_Agustin.pdf`}
             download
@@ -35,11 +41,29 @@ export const Hero = () => {
         </div>
       </div>
 
-      <img
-        src={getImageUrl("hero/heroImage3.png")}
-        alt="Perfil"
-        className={styles.heroImg}
-      />
+      <div className={styles.heroImgWrapper}>
+        <img
+          src={getImageUrl("hero/heroImage3.png")}
+          alt="Perfil"
+          className={styles.heroImg}
+        />
+        {techBadges.map((badge) => (
+          <span
+            key={badge.name}
+            className={styles.techBadge}
+            style={{
+              color: badge.color,
+              borderColor: badge.color,
+              top: badge.top,
+              left: badge.left,
+              animationDelay: badge.delay,
+              boxShadow: `0 0 10px ${badge.color}33, inset 0 0 10px ${badge.color}11`,
+            }}
+          >
+            {badge.name}
+          </span>
+        ))}
+      </div>
 
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />

@@ -75,7 +75,7 @@
   font-family: var(--font-roboto);
   text-align: left;
   margin-bottom: 25px;
-  width: 100%;
+  width: 95%;
 }
 
 .buttonGroup {
@@ -114,35 +114,63 @@
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.heroImg {
+/* ── Hero Image Wrapper ── */
+.heroImgWrapper {
+  position: relative;
   width: 50%;
   z-index: 1;
-  border-radius: 50%; 
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.heroImg {
+  width: 100%;
+  border-radius: 50%;
   object-fit: cover;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  margin-left: 1rem;
+  display: block;
 }
 
 @keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 10px);
-  }
-  100% {
-    transform: translate(0, -0px);
-  }
+  0%   { transform: translate(0, 0px); }
+  50%  { transform: translate(0, 10px); }
+  100% { transform: translate(0, 0px); }
 }
 
+/* ── Tech Badges ── */
+.techBadge {
+  position: absolute;
+  font-family: var(--font-roboto);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 100px;
+  border: 1.5px solid;
+  background: rgba(10, 20, 45, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  white-space: nowrap;
+  pointer-events: none;
+  animation: badgeFloat 3.8s ease-in-out infinite;
+  z-index: 2;
+}
+
+@keyframes badgeFloat {
+  0%   { transform: translateY(0px) rotate(-1deg); }
+  50%  { transform: translateY(-8px) rotate(1deg); }
+  100% { transform: translateY(0px) rotate(-1deg); }
+}
+
+/* ── Blur decorations ── */
 .topBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 350px;
   top: -128px;
   left: -10vw;
@@ -156,7 +184,6 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -25vw;
@@ -166,6 +193,7 @@
   z-index: 0;
 }
 
+/* ── Responsive ── */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
@@ -191,10 +219,15 @@
     text-align: center;
   }
 
-  .heroImg {
+  .heroImgWrapper {
     width: 90%;
     margin-top: 1rem;
     margin-bottom: 2rem;
     margin-left: 0;
+  }
+
+  .techBadge {
+    font-size: 11px;
+    padding: 5px 11px;
   }
 }

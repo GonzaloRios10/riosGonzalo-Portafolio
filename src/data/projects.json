@@ -26,12 +26,5 @@
     "description": "Sitio web personal para compartir quién soy, mi experiencia y el recorrido que he hecho en el mundo IT hasta la fecha.",
     "skills": ["HTML", "CSS", "TypeScript", "React"],
     "source": "https://github.com/GonzaloRios10/riosGonzalo-Portafolio.git"
-  },
-  {
-    "title": "Academia de Baile - Landing Page",
-    "imageSrc": "/assets/projects/Academia.jpg",
-    "description": "Página web para una academia de baile, diseñada para mostrar las clases disponibles, instructores y brindar información general sobre el lugar.",
-    "skills": ["En desarrollo..."],
-    "source": ""
   }
 ]

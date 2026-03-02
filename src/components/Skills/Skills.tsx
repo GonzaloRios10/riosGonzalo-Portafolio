@@ -19,9 +19,7 @@ export const Skills = () => {
           </div>
           <h3>Frontend 🎨</h3>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript / TypeScript</li>
+            <li>TypeScript</li>
             <li>Angular</li>
             <li>React</li>
             <li>Bootstrap</li>
@@ -37,11 +35,8 @@ export const Skills = () => {
           </div>
           <h3>Backend ⚙️</h3>
           <ul>
-            <li>PHP / Laravel</li>
-            <li>C# / ASP.NET Core</li>
-            <li>C++</li>
-            <li>Java / Spring Boot</li>
-            <li>Python</li>
+            <li>.NET</li>
+            <li>Laravel</li>
             <li>Node.js</li>
           </ul>
         </div>
@@ -55,9 +50,9 @@ export const Skills = () => {
           </div>
           <h3>Bases de datos 🗄️</h3>
           <ul>
-            <li>SQL</li>
             <li>MySQL</li>
             <li>PostgreSQL</li>
+            <li>SQL Server</li>
           </ul>
         </div>
 
@@ -70,10 +65,11 @@ export const Skills = () => {
           </div>
           <h3>Herramientas 🧰</h3>
           <ul>
-            <li>Jira</li>
             <li>Git & GitHub</li>
+            <li>Docker</li>
             <li>Figma</li>
             <li>Postman</li>
+            <li>Jira</li>
             <li>Looker Studio</li>
           </ul>
         </div>
