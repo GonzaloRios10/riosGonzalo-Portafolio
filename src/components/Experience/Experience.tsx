@@ -1,9 +1,13 @@
 import styles from "./Experience.module.css";
 import history from "../../data/history.json";
+import reveal from "../../styles/reveal.module.css";
+import { useRevealOnScroll } from "../../hooks/useRevealOnScroll";
 
 export const Experience = () => {
+  const { ref, isVisible } = useRevealOnScroll();
+
   return (
-    <section className={styles.container} id="experience">
+    <section ref={ref} id="experience" className={`${styles.container} ${isVisible ? reveal.show : reveal.hidden}`}>
       <h2 className={styles.title}>Experiencia</h2>
       <div className={styles.experienceList}>
         {history.map((job, index) => (

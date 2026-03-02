@@ -1,9 +1,13 @@
 import styles from "./Contact.module.css";
+import reveal from "../../styles/reveal.module.css";
 import { getImageUrl } from "../../utils";
+import { useRevealOnScroll } from "../../hooks/useRevealOnScroll";
 
 export const Contact = () => {
+  const { ref, isVisible } = useRevealOnScroll();
+
   return (
-    <footer id="contact" className={styles.container}>
+    <footer ref={ref} id="contact" className={`${styles.container} ${isVisible ? reveal.showContact : reveal.hiddenContact}`}>
       <div className={styles.inner}>
         <div className={styles.text}>
           <h2 className={styles.title}>Conectemos</h2>

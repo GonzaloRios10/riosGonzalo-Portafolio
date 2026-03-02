@@ -1,9 +1,13 @@
 import styles from "./About.module.css";
+import reveal from "../../styles/reveal.module.css";
 import { getImageUrl } from "../../utils";
+import { useRevealOnScroll } from "../../hooks/useRevealOnScroll";
 
 export const About = () => {
+  const { ref, isVisible } = useRevealOnScroll();
+
   return (
-    <section className={styles.container} id="about">
+    <section ref={ref} id="about" className={`${styles.container} ${isVisible ? reveal.show : reveal.hidden}`}>
       <h2 className={styles.title}>Sobre mí</h2>
       <div className={styles.content}>
         <img

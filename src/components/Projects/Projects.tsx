@@ -1,13 +1,17 @@
 import styles from "./Projects.module.css";
+import reveal from "../../styles/reveal.module.css";
 import projects from "../../data/projects.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow } from "swiper/modules";
+import { useRevealOnScroll } from "../../hooks/useRevealOnScroll";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 
 export const Projects = () => {
+  const { ref, isVisible } = useRevealOnScroll();
+
   return (
-    <section className={styles.container} id="projects">
+    <section ref={ref} id="projects" className={`${styles.container} ${isVisible ? reveal.show : reveal.hidden}`}>
       <h2 className={styles.title}>Proyectos</h2>
 
       {/* Slider para desktop/tablet */}

@@ -1,8 +1,12 @@
 import styles from "./Skills.module.css";
+import reveal from "../../styles/reveal.module.css";
+import { useRevealOnScroll } from "../../hooks/useRevealOnScroll";
 
 export const Skills = () => {
+  const { ref, isVisible } = useRevealOnScroll();
+
   return (
-    <section className={styles.container} id="skills">
+    <section ref={ref} id="skills" className={`${styles.container} ${isVisible ? reveal.show : reveal.hidden}`}>
       <h2 className={styles.title}>Habilidades</h2>
 
       <div className={styles.cards}>
