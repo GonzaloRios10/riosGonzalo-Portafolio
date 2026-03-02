@@ -57,7 +57,7 @@ export const Contact = () => {
       </div>
 
       <p className={styles.copyright}>
-        © 2025 RGAcode. Todos los derechos reservados.
+        © {new Date().getFullYear()} RGAcode. Todos los derechos reservados.
       </p>
     </footer>
   );
