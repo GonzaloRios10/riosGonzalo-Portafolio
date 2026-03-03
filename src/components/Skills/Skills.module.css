@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  margin: 79px 10%;
+  margin: 80px 10%;
   color: var(--color-text);
   scroll-margin-top: 80px;
 }

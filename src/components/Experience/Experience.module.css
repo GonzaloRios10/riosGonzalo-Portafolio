@@ -2,7 +2,7 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 79px;
+  margin-top: 80px;
   margin-left: 10%;
   margin-right: 10%;
   scroll-margin-top: 80px;
@@ -106,7 +106,7 @@
 
 @media (max-width: 768px) {
   .container {
-    margin-top: 39.5px;
+    margin-top: 40px;
   }
 
   .row {

@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 80px;
   margin-left: 10%;
   margin-right: 10%;
   color: var(--color-text);
@@ -132,9 +132,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container {
+  /* .container {
     margin-top: 130px;
-  }
+  } */
 
   .slider {
     display: none;

@@ -7,13 +7,13 @@ export const useRevealOnScroll = () => {
   useEffect(() => {
     if (!ref.current) return;
 
+    const threshold = window.innerWidth <= 768 ? 0.05 : 0.15;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
       },
-      {
-        threshold: 0.15,
-      }
+      { threshold }
     );
 
     observer.observe(ref.current);
