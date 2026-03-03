@@ -14,7 +14,7 @@
     "period": "Ago. 2025 - Presente",
     "logo": "assets/logos/logo-capasso.png",
     "url": "https://capassotech.com",
-    "description": "Formo parte de un equipo de desarrolladores colaborando en proyectos reales, participando en reuniones con clientes, desarrollo, mantenimiento e implementación de funcionalidades. Trabajo en soluciones full stack aplicando buenas prácticas con enfoque en calidad y escalabilidad.",
+    "description": "Formo parte de un equipo de desarrolladores colaborando en distintos proyectos, participando en reuniones con clientes, desarrollo, mantenimiento e implementación de funcionalidades. Trabajo en soluciones full stack aplicando buenas prácticas con enfoque en calidad y escalabilidad.",
     "technologies": ["Laravel", "ASP.NET MVC", "Angular", "SQL Server", "MySQL", "APIs REST", "Git", "Firebase", "PWA"]
   },
   {

@@ -25,7 +25,10 @@ export const Hero = () => {
           Téc. Analista de Sistemas · Graduado
         </p>
         <p className={styles.description}>
-          Con experiencia en análisis y desarrollo <br /> de sistemas, participo en proyectos reales bajo metodologías ágiles, aplicando una mirada analítica y comunicación asertiva para transformar ideas en soluciones digitales.
+          Con experiencia en análisis y desarrollo de sistemas, participo en proyectos{" "}
+          <code className={styles.codeTag}>end-to-end</code> bajo metodologías ágiles,
+          aplicando una mirada analítica y comunicación asertiva para transformar ideas
+          en soluciones digitales.
         </p>
 
         <div className={styles.buttonGroup}>

@@ -78,6 +78,16 @@
   width: 95%;
 }
 
+.codeTag {
+  font-family: monospace;
+  font-size: 0.85em;
+  color: #F29111;
+  background: rgba(242, 145, 17, 0.1);
+  border: 1px solid rgba(242, 145, 17, 0.25);
+  border-radius: 6px;
+  padding: 0px 10px;
+}
+
 .buttonGroup {
   display: flex;
   gap: 16px;
@@ -132,6 +142,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   display: block;
+  will-change: transform;
 }
 
 @keyframes floating {
@@ -158,6 +169,7 @@
   pointer-events: none;
   animation: badgeFloat 3.8s ease-in-out infinite;
   z-index: 2;
+  will-change: transform;
 }
 
 @keyframes badgeFloat {
@@ -234,5 +246,7 @@
   .techBadge {
     font-size: 11px;
     padding: 5px 11px;
+    animation: none;
+    backdrop-filter: none;
   }
 }
