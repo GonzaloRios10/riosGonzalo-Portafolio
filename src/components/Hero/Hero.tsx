@@ -33,7 +33,7 @@ export const Hero = () => {
 
         <div className={styles.buttonGroup}>
           <a
-            href={`${import.meta.env.BASE_URL}files/Curriculum_Vitae_2026_Rios_Gonzalo_Agustin.pdf`}
+            href="https://drive.google.com/uc?export=download&id=14ZnbZmJefGwZPibTv_DO_dEdiucSOwMV"
             download
             target="_blank"
             rel="noopener noreferrer"
