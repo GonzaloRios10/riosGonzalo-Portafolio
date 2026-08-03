@@ -80,7 +80,12 @@ export const Services = () => {
           <h3 className={styles.ctaTitle}>¿Tenés un proyecto en mente?</h3>
           <p className={styles.ctaSubtitle}>Hablemos y encontremos la mejor solución para vos.</p>
         </div>
-        <a href="mailto:gonzalo.agusrios@gmail.com" className={styles.ctaButton}>
+        <a 
+          href="https://wa.me/543764526309?text=Hola%20Gonzalo!%20Me%20gustar%C3%ADa%20consultar%20sobre%20un%20proyecto%20para%20mi%20negocio."
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.ctaButton}
+        >
           Solicitar presupuesto
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
             <line x1="5" y1="12" x2="19" y2="12" />
