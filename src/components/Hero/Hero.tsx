@@ -55,10 +55,9 @@ export const Hero = () => {
         </div>
 
         <h1 className={styles.title}>
-          ¡Hola!
+          ¡Hola! <span className={styles.wave}>👋🏻</span>
           <br />
           Soy <span className={styles.highlight}>Gonzalo</span>{" "}
-          <span className={styles.wave}>👋🏻</span>
         </h1>
 
         <p className={styles.subtitle}>Desarrollador Full Stack SSR</p>

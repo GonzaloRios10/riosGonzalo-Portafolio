@@ -221,7 +221,7 @@
 
 .imgCircle {
   position: relative;
-  width: 90%;
+  width: 95%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   overflow: hidden;
@@ -373,6 +373,10 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     margin-left: 0;
+  }
+  
+  .imgCircle {
+    width: 100%;
   }
 
   .techBadge {

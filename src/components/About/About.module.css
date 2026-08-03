@@ -106,7 +106,7 @@
   }
 
   .introImage {
-    width: 160px;
+    display: none;
   }
 
   .cardsGrid {
