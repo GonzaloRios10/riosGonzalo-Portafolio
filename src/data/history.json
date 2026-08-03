@@ -1,15 +1,15 @@
 [
   {
     "role": "Desarrollador Full Stack",
-    "company": "Proyectos Freelance",
+    "company": "Freelance",
     "period": "2023 - Presente",
     "logo": "",
     "url": "",
     "description": "Desarrollo de proyectos web a medida para distintos clientes, abarcando análisis de requerimientos, desarrollo full stack, integración de APIs y despliegue de aplicaciones.",
-    "technologies": []
+    "technologies": ["Análisis de requerimientos", "Gestión", "Integración de APIs", "Despliegue", "Comunicación asertiva", "Seguimiento"]
   },
   {
-    "role": "Desarrollador Full Stack",
+    "role": "Desarrollador Full Stack - Semi senior",
     "company": "Capasso Tech",
     "period": "Ago. 2025 - Presente",
     "logo": "assets/logos/logo-capasso.png",
@@ -18,7 +18,7 @@
     "technologies": ["Laravel", "ASP.NET MVC", "Angular", "SQL Server", "MySQL", "APIs REST", "Git", "Firebase", "PWA"]
   },
   {
-    "role": "Desarrollador Full Stack",
+    "role": "Desarrollador Full Stack - Junior",
     "company": "Teamcubation (Software Factory)",
     "period": "Nov. 2024 - Jun. 2025",
     "logo": "assets/logos/logo-teamcubation.jpg",
