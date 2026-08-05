@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
       <a href={import.meta.env.BASE_URL}>
-        <img src={getImageUrl("nav/logo.png")} alt="Logo" className={styles.logo} />
+        <img src={getImageUrl("nav/logoRGAv2_sinfondo.png")} alt="Logo" className={styles.logo} />
       </a>
 
       <div className={styles.menu}>

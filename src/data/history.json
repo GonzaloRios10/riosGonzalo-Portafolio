@@ -5,25 +5,62 @@
     "period": "2023 - Presente",
     "logo": "",
     "url": "",
-    "description": "Desarrollo de proyectos web a medida para distintos clientes, abarcando análisis de requerimientos, desarrollo full stack, integración de APIs y despliegue de aplicaciones.",
-    "technologies": ["Análisis de requerimientos", "Gestión", "Integración de APIs", "Despliegue", "Comunicación asertiva", "Seguimiento"]
+    "description": "Desarrollo de soluciones web a medida para distintos clientes, participando en el análisis de requerimientos, integración de APIs, implementación y despliegue de aplicaciones.",
+    "technologies": [
+      "Análisis de requerimientos",
+      "Gestión",
+      "Integración de APIs",
+      "Despliegue",
+      "Comunicación asertiva",
+      "Seguimiento"
+    ]
   },
   {
-    "role": "Desarrollador Full Stack - Semi senior",
+    "role": "Desarrollador Full Stack",
     "company": "Capasso Tech",
     "period": "Ago. 2025 - Presente",
     "logo": "assets/logos/logo-capasso.png",
     "url": "https://capassotech.com",
-    "description": "Formo parte de un equipo de desarrolladores colaborando en distintos proyectos, participando en reuniones con clientes, desarrollo, mantenimiento e implementación de funcionalidades. Trabajo en soluciones full stack aplicando buenas prácticas con enfoque en calidad y escalabilidad.",
-    "technologies": ["Laravel", "ASP.NET MVC", "Angular", "SQL Server", "MySQL", "APIs REST", "Git", "Firebase", "PWA"]
+    "description": "Formo parte de un equipo de desarrolladores colaborando en múltiples proyectos para distintos clientes, participando en el desarrollo de aplicaciones web, e-commerce y plataformas SaaS. Trabajo en el desarrollo e integración de APIs, implementación de nuevas funcionalidades, soporte técnico y despliegue de aplicaciones en entornos de QA y Producción.",
+    "technologies": [
+      "Laravel",
+      "ASP.NET MVC",
+      "React",
+      "Node.js",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "MySQL",
+      "SQL Server",
+      "Firebase",
+      "Render",
+      "Clerk",
+      "Mercado Pago",
+      "PWA",
+      "Git",
+      "Jira"
+    ]
   },
   {
-    "role": "Desarrollador Full Stack - Junior",
-    "company": "Teamcubation (Software Factory)",
+    "role": "Desarrollador Full Stack",
+    "company": "Teamcubation | Software Factory",
     "period": "Nov. 2024 - Jun. 2025",
     "logo": "assets/logos/logo-teamcubation.jpg",
     "url": "https://teamcubation.com",
-    "description": "Participe como desarrollador Full Stack en un proyecto orientado a la administración de recursos para los comedores escolares de Misiones, trabajando en conjunto con el equipo interno del Banco Macro.",
-    "technologies": ["TypeScript", "Angular", "ASP.NET Core", "C#", "PostgreSQL", "APIs REST", "Git", "Scrum"]
+    "description": "Participé en el desarrollo de un portal para la administración de comedores escolares de la provincia de Misiones, trabajando junto a Banco Macro bajo una arquitectura basada en microservicios. Colaboré en el desarrollo de funcionalidades frontend y backend, integración de APIs externas y mantenimiento de la plataforma.",
+    "technologies": [
+      "Angular",
+      "TypeScript",
+      "ASP.NET Core",
+      "C#",
+      "PostgreSQL",
+      "APIs REST",
+      "RENAPER",
+      "Koibanx",
+      "Microservicios",
+      "Git",
+      "Jira",
+      "Scrum"
+    ]
   }
 ]

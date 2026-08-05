@@ -2,29 +2,54 @@
   {
     "title": "E-Commerce",
     "imageSrc": "/assets/projects/ElectronicaSyS.jpeg",
-    "description": "Plataforma de ventas en línea para productos electrónicos, con módulos de administración, ventas y control de stock. Se integró la API de Mercado Pago para ofrecer un sistema de pago seguro.",
-    "skills": ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Mercado Pago API"],
+    "description": "Plataforma e-commerce desarrollada para la gestión y venta de productos electrónicos, con autenticación de usuarios, administración de productos, control de stock e integración con Mercado Pago para pagos online.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+      "Mercado Pago API"
+    ],
     "source": "https://github.com/GonzaloRios10/ElectronicaSyS-TiendaOnline.git"
   },
   {
     "title": "Gimnasio Virtual",
     "imageSrc": "/assets/projects/Gimnasio.jpg",
-    "description": "Sistema desarrollado para un gimnasio, con herramientas de gestión tanto para el profesor como para sus alumnos. Incluye rutinas de entrenamiento y planes de nutrición personalizados.",
-    "skills": ["HTML", "CSS", "Vanilla", "JavaScript", "PHP", "MySQL"],
+    "description": "Sistema web para la administración de un gimnasio, permitiendo gestionar alumnos, rutinas de entrenamiento, planes de nutrición y seguimiento personalizado.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MySQL"
+    ],
     "source": "https://github.com/GonzaloRios10/PowerGym-Gimnasio.git"
   },
   {
-    "title": "Clínica Médica - Trabajo Final de Tesis",
+    "title": "Clínica Médica",
     "imageSrc": "/assets/projects/GestionMedica.jpeg",
-    "description": "Aplicación web para una clínica médica con gestión de turnos y pacientes, historiales clínicos y apartado de mensajería en linea.",
-    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "Laravel", "MySQL"],
+    "description": "Trabajo final de carrera. Sistema web para la gestión integral de una clínica médica, incluyendo administración de pacientes, turnos, historias clínicas y mensajería entre usuarios.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "Laravel",
+      "MySQL"
+    ],
     "source": "https://github.com/GonzaloRios10/proyectoFinal2023-Tesis.git"
   },
   {
-    "title": "Portafolio",
+    "title": "Portafolio Personal",
     "imageSrc": "/assets/projects/Portafolio.png",
-    "description": "Sitio web personal para compartir quién soy, mi experiencia y el recorrido que he hecho en el mundo IT hasta la fecha.",
-    "skills": ["HTML", "CSS", "TypeScript", "React"],
+    "description": "Sitio web personal desarrollado en React donde presento mi experiencia profesional, tecnologías, proyectos y trayectoria como desarrollador.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
     "source": "https://github.com/GonzaloRios10/riosGonzalo-Portafolio.git"
   }
 ]

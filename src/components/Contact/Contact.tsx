@@ -51,8 +51,10 @@ export const Contact = () => {
           <p className={styles.label}>Contacto</p>
           <h2 className={styles.title}>Charlemos</h2>
           <p className={styles.subtitle}>
-            Estoy abierto a oportunidades laborales, proyectos freelance o simplemente a charlar un rato. <br></br>¡Escribime! 🚀
+            Estoy abierto a oportunidades laborales, proyectos freelance o simplemente a charlar un rato.
           </p>
+          <br />
+          <p className={styles.subtitle}>¡Escribime! 🚀</p>
         </div>
 
         <ul className={styles.links}>
